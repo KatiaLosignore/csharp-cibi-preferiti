@@ -9,7 +9,7 @@ string[] cibiPreferiti = { "Sushi", "Pizza", "Gelato", "Mango", "Pesce", "Patate
 
 // lunghezza della classifica dei cibi preferiti
 
-Console.WriteLine($"La lunghezza della classifica è: {cibiPreferiti.Length}");
+Console.WriteLine($"La lunghezza della classifica è formata da : {cibiPreferiti.Length} elementi");
 
 
 // classifica dei miei piatti preferiti
@@ -42,9 +42,9 @@ var centroClassifica = cibiPreferiti.Length / 2;
 
 if (centroClassifica % 2 == 0)
 {
-    Console.WriteLine($"I cibi a mezza classifica sono: {cibiPreferiti[centroClassifica - 1]}  e  {cibiPreferiti[centroClassifica]}"); // sono i due elementi centrali della mia classifica
+    Console.WriteLine($"I cibi di mezza classifica sono: {cibiPreferiti[centroClassifica - 1]}  e  {cibiPreferiti[centroClassifica]}"); // sono i due elementi centrali della mia classifica
 }
 else
 {
-    Console.WriteLine($"Il cibo di mezza classifica è:  {cibiPreferiti[centroClassifica]}"); // è l'unico elemento centrale della mia classifica
+    Console.WriteLine($"Il cibo di mezza classifica è: {cibiPreferiti[centroClassifica]}"); // è l'unico elemento centrale della mia classifica
 }
